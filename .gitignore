@@ -1,0 +1,15 @@
+# Paper PDF (not published during review)
+Scr4tch_ICLR2027_preprint.pdf
+
+# Internal notes and working material, not part of the page
+CLAUDE.md
+README.md
+_source/
+temp/
+.claude/
+static/videos/README.txt
+
+# OS and sync clutter
+.DS_Store
+Thumbs.db
+desktop.ini
