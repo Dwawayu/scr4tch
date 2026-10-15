@@ -178,11 +178,12 @@
 
       <div class="bars" data-bars role="figure" aria-label="RTA@5 on Wild-SLAM Mocap, higher is better">
         <p class="bars__title">RTA@5 on Wild-SLAM Mocap <span class="muted">(higher is better)</span></p>
+        <p class="bars__legend"><span><i class="key key--ours"></i>Scr4tch</span><span><i class="key key--ttt"></i>+ test-time training (TTT)</span></p>
         <p class="bars__group">Supervised</p>
         <div class="bar" tabindex="0" style="--v: .705" data-tip="NeoVerse: 0.705 at 336 × 560"><span class="bar__name">NeoVerse</span><span class="bar__track"><span class="bar__fill"></span><span class="bar__val">0.705</span></span></div>
         <div class="bar" tabindex="0" style="--v: .357" data-tip="MonST3R: 0.357 at 288 × 512"><span class="bar__name">MonST3R</span><span class="bar__track"><span class="bar__fill"></span><span class="bar__val">0.357</span></span></div>
         <p class="bars__group">Self-supervised</p>
-        <div class="bar bar--ours" tabindex="0" style="--v: .528" data-tip="Scr4tch: 0.528 at 256 × 256"><span class="bar__name">Scr4tch</span><span class="bar__track"><span class="bar__fill"></span><span class="bar__val">0.528</span></span></div>
+        <div class="bar bar--ours bar--ttt" tabindex="0" style="--v: .528; --v2: .654" data-tip="Scr4tch: 0.528 at 256 × 256; 0.654 with test-time training"><span class="bar__name">Scr4tch</span><span class="bar__track"><span class="bar__fill"></span><span class="bar__ext"></span><span class="bar__base">0.528</span><span class="bar__val">0.654<span class="sr-only"> with test-time training</span></span></span></div>
         <div class="bar" tabindex="0" style="--v: .319" data-tip="E-RayZer: 0.319 at 256 × 256"><span class="bar__name">E-RayZer</span><span class="bar__track"><span class="bar__fill"></span><span class="bar__val">0.319</span></span></div>
         <div class="bar" tabindex="0" style="--v: .284" data-tip="PF3plat: 0.284 at 256 × 256, ground-truth intrinsics, pretrained networks"><span class="bar__name">PF3plat</span><span class="bar__track"><span class="bar__fill"></span><span class="bar__val">0.284</span></span></div>
         <div class="bar" tabindex="0" style="--v: .153" data-tip="SelfSplat: 0.153 at 256 × 448, ground-truth intrinsics"><span class="bar__name">SelfSplat</span><span class="bar__track"><span class="bar__fill"></span><span class="bar__val">0.153</span></span></div>
